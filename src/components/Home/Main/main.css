@@ -1,0 +1,51 @@
+.icons {
+    padding: 55px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bg {
+    margin-top: 80px;
+    z-index: -1;
+    position: absolute;
+    height: 210px;
+    width: 100%;
+}
+
+.bg-image {
+    height: 180px;
+}
+
+.flipVis {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+
+    .icons-div {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .icons {
+        padding: 0;
+        width: 600px;
+    }
+
+    .bg {
+        margin-top: 0;
+        z-index: -1;
+        position: absolute;
+        height: 210px;
+        width: 100%;
+    }
+
+    .bg-image {
+        height: auto;
+    }
+
+}

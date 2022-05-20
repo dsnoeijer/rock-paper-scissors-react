@@ -1,0 +1,98 @@
+.topbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    margin: 32px 35px;
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 7px;
+}
+
+.topbar-text {
+    padding: 17px 0;
+    margin-left: 20px;
+}
+
+.topbar-text p {
+    text-align: left;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 16px;
+}
+
+.topbar-score {
+    height: 72px;
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.topbar-score p {
+    margin: 0;
+    text-align: center;
+}
+
+.topbar-score .score {
+    padding: 9px 0 0;
+    color: hsl(229, 64%, 46%);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.topbar-score .points {
+    margin: 0;
+    color: hsl(229, 25%, 31%);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 600px) {
+    .topbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .topbar-container {
+        display: flex;
+        padding: 0;
+        width: 698px;
+        height: 148px;
+        margin-top: 39px;
+    }
+
+    .topbar-text {
+        padding: 10px 0 17px;
+        margin-left: 20px;
+    }
+
+    .topbar-text p {
+        font-size: 40px;
+        margin: 0;
+        line-height: 32px;
+    }
+
+    .topbar-score {
+        height: 114px;
+        width: 146px;
+        margin-right: 24px;
+        background-color: #ffffff;
+    }
+
+    .topbar-score .score {
+        padding: 16px 0 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .topbar-score .points {
+        margin-top: -6px;
+        font-size: 64px;
+        font-weight: 700;
+    }
+
+}

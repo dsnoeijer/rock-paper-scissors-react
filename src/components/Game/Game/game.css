@@ -1,0 +1,160 @@
+.game-results {
+    padding-top: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game-results .icon-single {
+    margin-top: 0;
+}
+
+.empty-icon {
+    background-color: #192845;
+    width: 110px;
+    height: 110px;
+    margin-right: 35px;
+    border-radius: 50%;
+    opacity: .7;
+}
+
+.game-results-text {
+    padding: 27px 20px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.game-results-rules {
+    display: flex;
+    justify-content: center;
+}
+
+.game-results-rules .rules {
+    padding: 49px 30px;
+}
+
+.game-results-rules .showRules {
+    display: hidden;
+}
+
+.game-results-rules .showRules h1,
+.game-results-rules .showRules .rulesImage {
+    text-align: center;
+}
+
+.game-results-rules .showRules button {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.win-lose {
+    height: 203px;
+    visibility: hidden;
+}
+
+.win-lose-text {
+    padding: 17px 0 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 54px;
+}
+
+.win-lose-text p {
+    margin-bottom: 18px;
+}
+
+.win-lose a {
+    text-decoration: none;
+}
+
+.cpu {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+
+    .results {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .game-results {
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .game-results-text {
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 41px 0 0;
+        color: #ffffff;
+        letter-spacing: 2px;
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .game-results-text .user-pick {
+        padding-left: 80px;
+    }
+
+    .game-results-text .cpu-pick {
+        padding-right: 40px;
+    }
+
+    .game-results .icon-single {
+        padding: 82px 82px 70px;
+        margin: 14px 45px 0;
+    }
+
+    .game-results .icon-single img {
+        height: 115px;
+    }
+
+    .game-results .paper {
+        border: 32px solid #5470ed;
+        box-shadow: 0 13px #2844c0;
+    }
+
+    .game-results .rock {
+        border: 32px solid #dd4157;
+        box-shadow: 0 13px #9e1833;
+    }
+
+    .game-results .scissors {
+        border: 32px solid #eda626;
+        box-shadow: 0 13px #c76c1c;
+    }
+
+    .win-lose {
+        position: relative;
+        top: -293px;
+        height: 203px;
+    }
+
+    .game-results-rules {
+        display: flex;
+        justify-content: right;
+    }
+
+    .game-results-rules .rules {
+        padding: 0 30px;
+    }
+
+    .game-results-rules .showRules button {
+        width: 50px;
+        margin: 0 auto;
+        position: relative;
+        top: -324px;
+        left: 330px;
+    }
+
+}

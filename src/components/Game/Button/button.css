@@ -1,0 +1,16 @@
+.play-again-button {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.play {
+    padding: 15px 60px;
+    border: none;
+    border-radius: 10px;
+    color: hsl(217, 16%, 45%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}

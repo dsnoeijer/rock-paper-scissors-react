@@ -1,0 +1,60 @@
+.icon-single {
+    background-color: #ffffff;
+    padding: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px 25px 0;
+}
+
+.icon-single img {
+    width: 90%;
+}
+
+.paper {
+    border: 14px solid #5470ed;
+}
+
+.rock {
+    border: 14px solid #dd4157;
+}
+
+.scissors {
+    border: 14px solid #eda626;
+}
+
+@media screen and (min-width: 600px) {
+    .icon-single {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 45px 38px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin: 21px 45px 0;
+    }
+
+    .icon-single img {
+        display: flex;
+        justify-content: center;
+        height: 80px;
+        width: auto;
+        align-items: center;
+    }
+
+    .paper {
+        border: 20px solid #5470ed;
+        box-shadow: 0 9px #2844c0;
+    }
+
+    .rock {
+        border: 21px solid #dd4157;
+        box-shadow: 0 9px #9e1833;
+    }
+
+    .scissors {
+        border: 21px solid #eda626;
+        box-shadow: 0 9px #c76c1c;
+    }
+}
